@@ -1,0 +1,453 @@
+[
+  {
+    "description": "As a fullstackdotdev Customer I should be able to access spark features",
+    "keyword": "Feature",
+    "name": "Spark Related Scenarios",
+    "line": 2,
+    "id": "spark-related-scenarios",
+    "tags": [
+      {
+        "name": "@spark",
+        "line": 1
+      }
+    ],
+    "uri": "fullstackdotdev-atdd/features/spark.feature",
+    "elements": [
+      {
+        "id": "spark-related-scenarios;create-a-new-api-service-from-spark-dashboard",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Create a NEW API Service from Spark Dashboard",
+        "tags": [
+          {
+            "name": "@spark",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 8
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "utilities/hooks.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am on the Salesforce SignIn Page",
+            "match": {
+              "location": "steps/common.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2680
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I login using credentials \"membernation.s-testingorg@fullstackdotdev.com\" and \"704fullstackdotdev\"",
+            "match": {
+              "location": "steps/common.steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5844
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should be able to switch to \"Spark Framework\" application",
+            "match": {
+              "location": "steps/common.steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 118
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should be able to create New API Service with \"membernation.s-testingorg@fullstackdotdev.com\" and \"704fullstackdotdev\"",
+            "match": {
+              "location": "steps/spark.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12857
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I should be able to sign out",
+            "match": {
+              "location": "steps/common.steps.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2289
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "utilities/hooks.ts:24"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "spark-related-scenarios;create-a-new-api-service-from-spark-dashboard",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Create a NEW API Service from Spark Dashboard",
+        "tags": [
+          {
+            "name": "@spark",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 18
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "utilities/hooks.ts:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am on the Salesforce SignIn Page",
+            "match": {
+              "location": "steps/common.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 787
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I login using credentials \"membernation.s-testingorg@fullstackdotdev.com\" and \"704fullstackdotdev\"",
+            "match": {
+              "location": "steps/common.steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5675
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I should be able to switch to \"Spark Framework\" application",
+            "match": {
+              "location": "steps/common.steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I should be able to create New API Service with \"membernation.s-testingorg@fullstackdotdev.com\" and \"704fullstackdotdev\"",
+            "match": {
+              "location": "steps/spark.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11589
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I should be able to sign out",
+            "match": {
+              "location": "steps/common.steps.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2063
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "utilities/hooks.ts:24"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "As a fullstackdotdev Customer I should be able to access spark features",
+    "keyword": "Feature",
+    "name": "Store Related Scenarios",
+    "line": 2,
+    "id": "store-related-scenarios",
+    "tags": [
+      {
+        "name": "@spark",
+        "line": 1
+      }
+    ],
+    "uri": "fullstackdotdev-atdd/features/store.feature",
+    "elements": [
+      {
+        "id": "store-related-scenarios;create-a-new-api-service-from-spark-dashboard",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Create a NEW API Service from Spark Dashboard",
+        "tags": [
+          {
+            "name": "@spark",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 8
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "utilities/hooks.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am on the Salesforce SignIn Page",
+            "match": {
+              "location": "steps/common.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I login using credentials \"membernation.s-testingorg@fullstackdotdev.com\" and \"704fullstackdotdev\"",
+            "match": {
+              "location": "steps/common.steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5663
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should be able to switch to \"Spark Framework\" application",
+            "match": {
+              "location": "steps/common.steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should be able to create New API Service with \"membernation.s-testingorg@fullstackdotdev.com\" and \"704fullstackdotdev\"",
+            "match": {
+              "location": "steps/spark.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11673
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I should be able to sign out",
+            "match": {
+              "location": "steps/common.steps.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2011
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "utilities/hooks.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "store-related-scenarios;create-a-new-api-service-from-spark-dashboard",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Create a NEW API Service from Spark Dashboard",
+        "tags": [
+          {
+            "name": "@spark",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 18
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "utilities/hooks.ts:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am on the Salesforce SignIn Page",
+            "match": {
+              "location": "steps/common.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 884
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I login using credentials \"membernation.s-testingorg@fullstackdotdev.com\" and \"704fullstackdotdev\"",
+            "match": {
+              "location": "steps/common.steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I should be able to switch to \"Spark Framework\" application",
+            "match": {
+              "location": "steps/common.steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 112
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I should be able to create New API Service with \"membernation.s-testingorg@fullstackdotdev.com\" and \"704fullstackdotdev\"",
+            "match": {
+              "location": "steps/spark.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11532
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I should be able to sign out",
+            "match": {
+              "location": "steps/common.steps.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2169
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "utilities/hooks.ts:24"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

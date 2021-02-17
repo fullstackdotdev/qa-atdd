@@ -1,0 +1,57 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2021": true,
+    "jasmine": true
+  },
+  "extends": [
+    "standard",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2021
+  },
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "semi": [2, "always"],
+    "space-before-function-paren": [2, "never"],
+
+    // list of error rules to fix
+    "@typescript-eslint/ban-types": "off",
+    "@typescript-eslint/no-empty-function": "off",
+    "@typescript-eslint/no-this-alias": "off",
+    "@typescript-eslint/no-var-requires": "off",
+    "camelcase": "off",
+    "default-case-last": "off",
+    "dot-notation": "off",
+    "eqeqeq": "off",
+    "func-call-spacing": "off",
+    "handle-callback-err": "off",
+    "multiline-ternary": "off",
+    "new-cap": "off",
+    "no-async-promise-executor": "off",
+    "no-case-declarations": "off",
+    "no-constant-condition": "off",
+    "no-empty": "off",
+    "no-prototype-builtins": "off",
+    "no-return-assign": "off",
+    "no-tabs": "off",
+    "no-unused-expressions": "off",
+    "no-unexpected-multiline": "off",
+    "no-useless-escape": "off",
+    "node/handle-callback-err": "off",
+    "prefer-const": "off",
+    "prefer-promise-reject-errors": "off",
+
+    // list of warning rules to fix
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-unused-vars": "off"
+  }
+}
